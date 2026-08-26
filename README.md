@@ -99,21 +99,21 @@
       <span class="tag">WEEKLY</span>
       <h2>📅 Weekly Pass</h2>
       <div class="price">₹156</div>
-      <a class="order" href="#">Order Now</a>
+      <a class="order" href="https://wa.me/919679960292?text=Hi%2C%20I%20want%20to%20order%20Weekly%20Pass%20-%20₹156">Order Now</a> href="#">Order Now</a>
     </div>
 
     <div class="card">
       <span class="tag">FIRST-TIME DOUBLE</span>
       <h2>💎 150 + 15 Diamonds</h2>
       <div class="price">₹260</div>
-      <a class="order" href="#">Order Now</a>
+      <a class="order" href="https://wa.me/919679960292?text=Hi%2C%20I%20want%20to%20order%20150%20%2B%2015%20Diamonds%20-%20₹260">Order Now</a> href="#">Order Now</a>
     </div>
 
     <div class="card">
       <span class="tag">EVENT SPECIAL</span>
       <h2>🎉 Weekly Pass + 172 Diamonds</h2>
       <div class="price">₹440</div>
-      <a class="order" href="#">Order Now</a>
+      <a class="order" href="https://wa.me/919679960292?text=Hi%2C%20I%20want%20to%20order%20Event%20Special%20-%20Weekly%20Pass%20%2B%20172%20Diamonds%20-%20₹440">Order Now</a> href="#">Order Now</a>
     </div>
 
     <div class="card">
