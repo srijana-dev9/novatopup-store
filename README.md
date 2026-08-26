@@ -5,85 +5,101 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NOVATOPUP STORE</title>
 
-  </style>
-    * {
-      box-sizing: border-box;
-    }
+<style>
+  * {
+    box-sizing: border-box;
+  }
 
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #080d1c;
-      color: white;
-    }
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background:
+      radial-gradient(circle at top, #172b63 0%, #080d1c 45%, #050811 100%);
+    color: #ffffff;
+    min-height: 100vh;
+  }
 
-    header {
-      text-align: center;
-      padding: 40px 15px;
-      background: linear-gradient(135deg, #111b3d, #090d1d);
-    }
+  header {
+    text-align: center;
+    padding: 55px 15px 45px;
+    background: rgba(5, 10, 25, 0.75);
+    border-bottom: 1px solid #263c78;
+  }
 
-    header h1 {
-      margin: 0;
-      font-size: 32px;
-    }
+  header h1 {
+    margin: 0;
+    font-size: 38px;
+    letter-spacing: 1px;
+    text-shadow: 0 0 18px #3d7cff;
+  }
 
-    header p {
-      color: #aeb8d8;
-      margin-top: 10px;
-    }
+  header p {
+    color: #b9c9f5;
+    margin-top: 12px;
+    font-size: 16px;
+  }
 
-    .container {
-      max-width: 850px;
-      margin: auto;
-      padding: 25px 15px;
-    }
+  .container {
+    max-width: 850px;
+    margin: auto;
+    padding: 30px 15px;
+  }
 
-    .card {
-      background: #121a31;
-      border: 1px solid #273354;
-      border-radius: 16px;
-      padding: 22px;
-      margin-bottom: 16px;
-      text-align: center;
-    }
+  .card {
+    background: rgba(18, 27, 55, 0.92);
+    border: 1px solid #3155a5;
+    border-radius: 20px;
+    padding: 25px;
+    margin-bottom: 18px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+  }
 
-    .card h2 {
-      margin: 0 0 10px;
-    }
+  .card h2 {
+    margin: 8px 0 10px;
+    font-size: 22px;
+  }
 
-    .tag {
-      display: inline-block;
-      padding: 6px 10px;
-      border-radius: 20px;
-      background: #26345c;
-      color: #dce4ff;
-      font-size: 13px;
-      margin-bottom: 10px;
-    }
+  .tag {
+    display: inline-block;
+    padding: 7px 13px;
+    border-radius: 20px;
+    background: #1d3d82;
+    color: #dce8ff;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+  }
 
-    .price {
-      font-size: 27px;
-      font-weight: bold;
-      margin: 12px 0;
-    }
+  .price {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 15px 0;
+    color: #ffffff;
+  }
 
-    .order {
-      display: inline-block;
-      text-decoration: none;
-      background: white;
-      color: #080d1c;
-      padding: 12px 28px;
-      border-radius: 10px;
-      font-weight: bold;
-    }
+  .order {
+    display: inline-block;
+    text-decoration: none;
+    background: linear-gradient(135deg, #4d8dff, #2454d8);
+    color: white;
+    padding: 13px 32px;
+    border-radius: 12px;
+    font-weight: bold;
+    box-shadow: 0 5px 18px rgba(45, 100, 255, 0.35);
+  }
 
-    footer {
-      text-align: center;
-      padding: 30px 15px;
-      color: #7f8aaa;
-    }
-  </style>
+  .order:active {
+    transform: scale(0.97);
+  }
+
+  footer {
+    text-align: center;
+    padding: 30px 15px;
+    color: #7f91bd;
+    font-size: 13px;
+  }
+</style>
 </head>
 
 <body>
