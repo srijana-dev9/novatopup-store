@@ -4,62 +4,84 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NOVATOPUP STORE</title>
+
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: #0b1020;
+      background: #080d1c;
       color: white;
-      text-align: center;
     }
 
     header {
-      padding: 35px 15px;
-      background: linear-gradient(135deg, #151d3b, #10162b);
+      text-align: center;
+      padding: 40px 15px;
+      background: linear-gradient(135deg, #111b3d, #090d1d);
     }
 
-    h1 {
+    header h1 {
       margin: 0;
       font-size: 32px;
     }
 
-    .tagline {
-      color: #b9c2e0;
+    header p {
+      color: #aeb8d8;
       margin-top: 10px;
     }
 
     .container {
-      max-width: 900px;
+      max-width: 850px;
       margin: auto;
       padding: 25px 15px;
     }
 
     .card {
-      background: #151d35;
-      border: 1px solid #293555;
-      border-radius: 15px;
-      padding: 20px;
-      margin: 15px 0;
+      background: #121a31;
+      border: 1px solid #273354;
+      border-radius: 16px;
+      padding: 22px;
+      margin-bottom: 16px;
+      text-align: center;
+    }
+
+    .card h2 {
+      margin: 0 0 10px;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 6px 10px;
+      border-radius: 20px;
+      background: #26345c;
+      color: #dce4ff;
+      font-size: 13px;
+      margin-bottom: 10px;
     }
 
     .price {
-      font-size: 24px;
+      font-size: 27px;
       font-weight: bold;
-      margin: 10px;
+      margin: 12px 0;
     }
 
-    button {
-      border: 0;
+    .order {
+      display: inline-block;
+      text-decoration: none;
+      background: #ffffff;
+      color: #080d1c;
+      padding: 12px 28px;
       border-radius: 10px;
-      padding: 12px 25px;
-      font-size: 16px;
       font-weight: bold;
-      cursor: pointer;
     }
 
     footer {
-      padding: 25px;
-      color: #8f9ab8;
+      text-align: center;
+      padding: 30px 15px;
+      color: #7f8aaa;
     }
   </style>
 </head>
@@ -68,36 +90,40 @@
 
   <header>
     <h1>💎 NOVATOPUP STORE</h1>
-    <p class="tagline">Fast & simple MLBB diamond recharge</p>
+    <p>Fast & simple MLBB recharge store</p>
   </header>
 
-  <div class="container">
+  <main class="container">
 
     <div class="card">
-      <h2>💎 86 Diamonds</h2>
-      <div class="price">₹99</div>
-      <button>Order Now</button>
+      <span class="tag">WEEKLY</span>
+      <h2>📅 Weekly Pass</h2>
+      <div class="price">₹156</div>
+      <a class="order" href="#">Order Now</a>
     </div>
 
     <div class="card">
-      <h2>💎 172 Diamonds</h2>
-      <div class="price">₹199</div>
-      <button>Order Now</button>
+      <span class="tag">FIRST-TIME DOUBLE</span>
+      <h2>💎 150 + 15 Diamonds</h2>
+      <div class="price">₹260</div>
+      <a class="order" href="#">Order Now</a>
     </div>
 
     <div class="card">
-      <h2>💎 257 Diamonds</h2>
-      <div class="price">₹299</div>
-      <button>Order Now</button>
+      <span class="tag">EVENT SPECIAL</span>
+      <h2>🎉 Weekly Pass + 172 Diamonds</h2>
+      <div class="price">₹440</div>
+      <a class="order" href="#">Order Now</a>
     </div>
 
     <div class="card">
-      <h2>💎 343 Diamonds</h2>
-      <div class="price">₹399</div>
-      <button>Order Now</button>
+      <span class="tag">PASS</span>
+      <h2>🌙 Twilight Pass</h2>
+      <div class="price">₹900</div>
+      <a class="order" href="#">Order Now</a>
     </div>
 
-  </div>
+  </main>
 
   <footer>
     © 2026 NOVATOPUP STORE
@@ -105,4 +131,3 @@
 
 </body>
 </html>
-
