@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -117,17 +117,4 @@
     </div>
 
     <div class="card">
-      <span class="tag">PASS</span>
-      <h2>🌙 Twilight Pass</h2>
-      <div class="price">₹900</div>
-      <a class="order" href="#">Order Now</a>
-    </div>
-
-  </main>
-
-  <footer>
-    © 2026 NOVATOPUP STORE
-  </footer>
-
-</body>
-</html>
+      <span class="t
