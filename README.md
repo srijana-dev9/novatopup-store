@@ -104,7 +104,7 @@
 
 <body>
 
-  <header>
+  <header>                                   <img src="file_00000000353882119004059d739b9c53.png" alt="NOVATOPUP STORE Logo" style="width:180px; max-width:70%; margin-bottom:15px;">
     <h1>💎 NOVATOPUP STORE</h1>
     <p>Fast & simple MLBB recharge store</p>
   </header>
